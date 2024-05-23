@@ -69,7 +69,7 @@ if ($consulta) {
             } else {
                 // Conexão com o servidor Imgur para subir a nova imagem
                 $nomeArquivo = $_FILES['nova_img']['tmp_name'];
-                $clientID = "c1e86e69b58a4ca";
+                $clientID = "************";
                 $handle = fopen($nomeArquivo, "r");
                 $dados = fread($handle, filesize($nomeArquivo));
                 fclose($handle);
